@@ -97,7 +97,7 @@ const ContactSection = () => {
         <div className="social-section">
           <h3 className="social-title">Follow Us</h3>
           <div className="social-links">
-            <button className="social-link">📘</button>
+            <img src="fb.svg" alt="facebook"  width="40" height="40"></img>
           </div>
         </div>
       </div>

@@ -22,23 +22,6 @@ const Navigation = () => {
     setIsMobileMenuOpen(false)
   }
 
-  if (!mounted) {
-    return (
-      <nav className="navigation navigation-loading">
-        <div className="nav-container">
-          <div className="nav-content">
-            <div className="nav-logo">
-              <div className="logo-icon">
-                <span>IIT</span>
-              </div>
-              <span className="logo-text">KGP Induction</span>
-            </div>
-            <div className="theme-toggle-placeholder"></div>
-          </div>
-        </div>
-      </nav>
-    )
-  }
 
   return (
     <nav className={`navigation ${isScrolled ? "navigation-scrolled" : ""}`}>

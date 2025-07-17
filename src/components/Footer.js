@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="footer-main">
             <div className="footer-logo">
               <div className="logo-icon">
-                <span>IIT</span>
+                <img src="logo.svg" alt="IIT KGP Logo" className="logo-image" />
               </div>
               <span className="logo-text">KGP Induction Program</span>
             </div>
@@ -29,7 +29,7 @@ const Footer = () => {
               Welcome to IIT Kharagpur's Induction Program 2024. Your journey to excellence begins here.
             </p>
             <div className="footer-social">
-              <button className="social-link">📘</button>
+              <img src="fb.svg" alt="facebook"  width="40" height="40"></img>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ const Footer = () => {
           <p className="footer-copyright">
             © {new Date().getFullYear()} Induction Program IIT Kharagpur. All rights reserved.
           </p>
-          <p className="footer-quote">"A journey of a thousand miles begins with a single step – Welcome to KGP!"</p>
+          <p className="footer-quote">"A journey of a thousand miles begins with a single step - Welcome to KGP!"</p>
         </div>
       </div>
     </footer>
