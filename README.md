@@ -110,7 +110,7 @@ public/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/iitkgp-induction-website.git
+git clone https://github.com/mr-rohit-7903/KGP-Introduction
 cd iitkgp-induction-website
 ```
 
