@@ -111,7 +111,7 @@ public/
 1. Clone the repository:
 ```bash
 git clone https://github.com/mr-rohit-7903/KGP-Introduction
-cd iitkgp-induction-website
+cd KGP-Introduction
 ```
 
 2. Install dependencies:
